@@ -8,6 +8,8 @@ self.addEventListener("install", (e) => {
                 "index.html",
                 "style.css",
                 "manifest.json",
+                "https://cdn.jsdelivr.net/npm/pouchdb@7.2.2/dist/pouchdb.min.js",
+                "https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css",
                 "https://cdn.jsdelivr.net/npm/pouchdb@7.2.2/dist/pouchdb.min.js"
             ])
         })
